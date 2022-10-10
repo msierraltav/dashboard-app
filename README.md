@@ -1,6 +1,6 @@
 # Receipts App
 
-App to test node , react and  
+App to learn react , react router, and materail UI
 
 ## How to install 
 
