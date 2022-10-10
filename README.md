@@ -1,4 +1,4 @@
-# Receipts App
+# Dashboard App
 
 App to learn react , react router, and Material UI
 
