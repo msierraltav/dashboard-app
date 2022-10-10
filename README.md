@@ -4,11 +4,15 @@ App to test node , react and
 
 ## How to install 
 
+### In your systems
+
 if you want to run it in your system simply clone the code and  then  execute: 
 
 cd js-coding-test
 npm install
 npm start 
+
+### Docker containers
 
 If you want to run it in inside a container just run 
 
