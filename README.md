@@ -1,6 +1,6 @@
 # Receipts App
 
-App to learn react , react router, and materail UI
+App to learn react , react router, and Material UI
 
 ## How to install 
 
