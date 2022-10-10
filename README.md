@@ -14,7 +14,7 @@ npm start
 
 ### Docker containers
 
-If you want to run it in inside a container just run 
+If you want to run it inside a container just run 
 
 cd dashboard-app
 
