@@ -1,31 +1,24 @@
-# Strider Javascript UI Coding Assigment
+# Receipts App
 
-Using the receipts provided here: https://doc.strider.tech/content/receipts.json, design a UI to showcase information about the data. Note: The instructions are intentionally vague to allow you to design the UI how you think best meets the requirements:
+App to test node , react and  
 
-To run the app:
+## How to install 
 
-```
-npm install && npm start
-```
+if you want to run it in your system simply clone the code and  then  execute: 
 
-## Requirements
+cd js-coding-test
+npm install
+npm start 
 
-1. On the home page:
-   - Display some high-level stats about the orders.
-   - Display links that will take you to a page about a specific customer which shows their order history.
-   - Display a link for each item which will take you to a page that shows the number of times that item has been ordered.
-2. Additionally, any information you think might be beneficial to see on the pages would be great. Be creative!
-3. Create different components on the UI with [Material UI](https://mui.com/material-ui/getting-started/overview/)
+If you want to run it in inside a container just run 
 
-**Note:** To route to the different pages, please use [React Router](https://reactrouter.com/en/main), which has already been installed.
-**Note:** Material UI has also already been installed.
+cd js-coding-test
 
-## Bonuses
+docker build . -t dashboard-app
 
-1. Demonstrate use of React hooks.
+docker run -p 3000:3000 -d dashboard-app
 
-When you have completed the assignment, upload the code to GitHub and update the README to include instructions on how to run the application. Please provide the link to your repository so that we may access it.
+then go to http://localhost:3000/ in your browser.
 
-## Hint
-
-The app is already configured to proxy requests to https://doc.strider.tech. When you want to hit the endpoint, all you have to do is fetch `/content/receipts.json`.
+to stop the container just execute docker ps to get the CONTAINER ID 
+and execute docker kill <container-id>
