@@ -9,7 +9,9 @@ App to learn react , react router, and Material UI
 if you want to run it in your system simply clone the code and  then  execute: 
 
 cd dashboard-app
+
 npm install
+
 npm start 
 
 ### Docker containers
