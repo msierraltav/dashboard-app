@@ -4,7 +4,7 @@ App to test node , react and
 
 ## How to install 
 
-### In your systems
+### In your system
 
 if you want to run it in your system simply clone the code and  then  execute: 
 
