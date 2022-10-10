@@ -8,7 +8,7 @@ App to test node , react and
 
 if you want to run it in your system simply clone the code and  then  execute: 
 
-cd js-coding-test
+cd dashboard-app
 npm install
 npm start 
 
@@ -16,7 +16,7 @@ npm start
 
 If you want to run it in inside a container just run 
 
-cd js-coding-test
+cd dashboard-app
 
 docker build . -t dashboard-app
 
