@@ -1,6 +1,7 @@
 # Dashboard App
 
 App to learn react , react router, and Material UI
+Test app to apply to ~~redacted~~ company 
 
 ## How to install 
 
